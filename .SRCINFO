@@ -1,6 +1,6 @@
 pkgbase = python-ipfshttpclient
 	pkgdesc = Python IPFS HTTP client library
-	pkgver = 0.4.13.2
+	pkgver = 0.6.0
 	pkgrel = 1
 	url = https://pypi.python.org/pypi/ipfshttpclient
 	arch = any
@@ -20,8 +20,12 @@ pkgbase = python-ipfshttpclient
 	depends = python-six
 	optdepends = go-ipfs: IPFS daemon
 	conflicts = python-ipfsapi
-	source = https://pypi.io/packages/source/i/ipfshttpclient/ipfshttpclient-0.4.13.2.tar.gz
-	sha256sums = 468d7c72ef309a91cf9c72a477da89f428757b32c30636da7c77a041ca01b2b3
+	source = https://pypi.io/packages/source/i/ipfshttpclient4ipwb/ipfshttpclient4ipwb-0.6.0.tar.gz
+	source = https://gist.githubusercontent.com/radfish/8bf3f64bc47c8ec123c469421ab293de/raw/d89ed69e3561961d92b1f48bad843649222f69b2/ipfshttpclient4ipwb-0.6.0-tests.patch
+	source = https://gist.githubusercontent.com/radfish/8bf3f64bc47c8ec123c469421ab293de/raw/d89ed69e3561961d92b1f48bad843649222f69b2/ipfshttpclient4ipwb-0.6.0-rename.patch
+	sha256sums = 2d0a349df35a7ae37fe1001f3b19260a65faf5fdb39cd945e71ba33a7c0dedf9
+	sha256sums = af04b39810f2270e3e4449282f4ea55d8b34c3c3f4dd515674d587bd841efcce
+	sha256sums = 13b2d8cdce60b08d6a223455083ba674eda36c802e414daf143f416b422a797d
 
 pkgname = python-ipfshttpclient
 
